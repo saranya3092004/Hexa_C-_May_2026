@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Appointment_app
 {
-    internal class Appointment
+    public partial class Appointment
     {
         public int AppointmentId { get; set; }
         public string PatientName { get; set; } = string.Empty;
